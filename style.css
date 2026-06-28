@@ -1,0 +1,23 @@
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.profil { text-align: center; }
+.profil img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #00aaff;
+  object-fit: cover;
+}
+.profil p {
+  color: #00aaff;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  margin-top: 12px;
+  font-weight: bold;
+  }
